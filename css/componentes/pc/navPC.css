@@ -1,0 +1,37 @@
+.nav-pc {
+	width: 25%;
+	height: inherit;
+}
+
+.open {
+	content: url("/assets/imagenes/iconos/close.png");
+}
+
+.close {
+	content: url("/assets/imagenes/iconos/open.png");
+}
+
+/* .seccion-lateral {
+	width: 25%;
+	height: inherit;
+	background-color: rgb(218, 206, 206);
+	box-shadow: -2px 0 5px var(--dark-color);
+}
+
+.boton-lateral {
+	background-color: black;
+	cursor: pointer;
+	color: white;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 50%;
+	left: 1%;
+}
+
+@media only screen and (max-width: 720px) {
+	.seccion-lateral {
+		display: none;
+	}
+} */

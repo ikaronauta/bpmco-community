@@ -1,0 +1,6 @@
+@import url("./css/general.css");
+@import url("./css/componentes/header.css");
+
+/* Pantalla PC */
+@import url("./css/componentes/pc/contenidoPC.css");
+@import url("./css/componentes/pc/navPC.css");
