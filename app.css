@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
 @import url("./css/general.css");
 @import url("./css/componentes/header.css");
 
 /* Pantalla PC */
 @import url("./css/componentes/pc/contenidoPC.css");
 @import url("./css/componentes/pc/navPC.css");
+@import url("./css/componentes/pc/navPC/cajonRecuerdos.css");
+@import url("./css/componentes/pc/navPC/cajonMemes.css");
