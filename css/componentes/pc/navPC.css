@@ -22,7 +22,7 @@
 }
 
 .open {
-	content: url("/assets/imagenes/iconos/close.svg");
+	content: url("../../../assets/imagenes/iconos/close.svg");
 	width: 20px;
 	cursor: pointer;
 	position: fixed;
@@ -31,7 +31,7 @@
 }
 
 .close {
-	content: url("/assets/imagenes/iconos/open.svg");
+	content: url("../../../assets/imagenes/iconos/open.svg");
 	width: 25px;
 	cursor: pointer;
 	position: fixed;
