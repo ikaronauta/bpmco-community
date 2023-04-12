@@ -1,0 +1,10 @@
+.menu-fijo {
+    width: 30%;
+    height: 80%;
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

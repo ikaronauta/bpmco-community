@@ -4,7 +4,10 @@
 @import url("./css/componentes/header.css");
 
 /* Pantalla PC */
+@import url("./css/componentes/pc/menuFijo.css");
+@import url("./css/componentes/pc/menuFijo/contenidoInternoFijo.css");
 @import url("./css/componentes/pc/contenidoPC.css");
+@import url("./css/componentes/pc/contenidoPc/vistaPost.css");
 @import url("./css/componentes/pc/navPC.css");
 @import url("./css/componentes/pc/navPC/cajonRecuerdos.css");
 @import url("./css/componentes/pc/navPC/cajonMemes.css");
