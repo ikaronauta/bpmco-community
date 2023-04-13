@@ -11,13 +11,43 @@
 }
 
 .imagen-portada {
-    width: 30%;
+    width: 50vh;
     object-fit: cover;
     border-radius: 30px;
 }
 
-.texto-post {
+.contenedor-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto-intro {
     line-height: 1.7rem;
     overflow-y: auto;
-    padding: 1%
+    padding: 5%;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 3rem;
+    color: var(--main-color);
+    text-align: justify;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-ver-mas {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    background-color: var(--secund-color);
+    color: var(--ligth-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.boton-ver-mas:hover {
+    background-color: var(--main-color);
 }

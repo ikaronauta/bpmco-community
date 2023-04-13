@@ -22,11 +22,31 @@ export function vistaPost(post, i) {
   img.src = post.portada;
 
   let p = document.createElement("p");
-  p.className = "texto-post";
-  p.innerHTML = post.post;
+  p.className = "texto-intro";
+  p.innerHTML = post.intro;
 
-  contenedorInferior.appendChild(img);
-  contenedorInferior.appendChild(p);
+  let divIntro = document.createElement("div");
+  divIntro.className = "contenedor-intro";
+  divIntro.appendChild(p);
+
+  if (i % 2 == 1) {
+    contenedorInferior.appendChild(img);
+    contenedorInferior.appendChild(divIntro);
+  } else {
+    contenedorInferior.appendChild(divIntro);
+    contenedorInferior.appendChild(img);
+  }
+
+  let botonVerMas = document.createElement("button");
+  botonVerMas.className = "boton-ver-mas";
+  botonVerMas.innerHTML = "Ver Más";
+  botonVerMas.addEventListener("click", () => {
+    document.getElementById("flotante").classList.toggle("cerrada");
+    document.getElementById("flotante").classList.toggle("abierta");
+    console.log(post);
+  });
+
+  if (post.post != "") divIntro.appendChild(botonVerMas);
 
   div.appendChild(contenedorSuperior);
   div.appendChild(contenedorInferior);
